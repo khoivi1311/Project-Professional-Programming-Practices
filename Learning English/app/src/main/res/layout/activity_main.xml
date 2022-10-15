@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background6"
+        >
+        <TextView
+            android:id="@+id/TxtTieude"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Learning English"
+            android:layout_marginTop="30dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageView
+            android:id="@+id/ImgTest"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/background11"
+            android:layout_below="@id/TxtTieude"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/BtnEnglishQuiz"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/ImgTest"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="Quiz"
+            android:textSize="20dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/BtnWord"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/ImgTest"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/BtnEnglishQuiz"
+            android:backgroundTint="@color/white"
+            android:text="Correct Words"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/BtnHighscore"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/BtnEnglishQuiz"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:text="High Score"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/BtnBack"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/BtnWord"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/BtnHighscore"
+            android:text="Back"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/TextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BtnBack"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Hi"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/BtnToLogin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/TextUserName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="LOG OUT"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="NotSibling" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
