@@ -1,4 +1,5 @@
 # Project-Professional-Programming-Practices
+Android Application Learning English
 ## Giới thiệu đồ án
 Trong đồ án này thực hiện xây dựng một ứng dụng Android có tên là Learning English vừa học vừa chơi giúp người học có hứng thú để phát triển khả năng tiếng Anh. Đồ án này được thực hiện theo nhóm gồm có bốn thành viên. Ứng dụng Learning English bao gồm hai tính năng chính như sau:
 - Chức năng English Quiz: chức năng trắc nghiệm tiếng Anh, có cả câu hỏi chữ và câu hỏi hình. Mỗi câu hỏi có 4 đáp án, trong đó có 1 đáp án đúng. Các câu hỏi xuất hiện ngẫu nhiên và không lặp lại. Cho phép người chơi chọn số lượng câu hỏi mỗi lần chơi tối thiểu là 5 và tối đa là 10. Mỗi câu hỏi trả lời đúng được tính 1 điểm, trả lời sai hoặc không trả lời hoặc hết thời gian thì tính 0 điểm. Mỗi câu hỏi có thời gian 20 giây, sử dụng đồng hồ đếm ngược nếu hết thời gian thì tự động sang câu kế tiếp. Kết thúc quiz hiển thị số điểm người chơi đạt được và lưu vào danh sách điểm cao nếu lọt vào top 5.
